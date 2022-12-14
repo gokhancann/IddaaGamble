@@ -33,6 +33,11 @@ public class Kasa implements Islemler {
     }
 
     @Override
+    public void paraCek(double miktar){
+        this.para -= miktar;
+    }
+
+    @Override
     public void bahisTutariniDus(double miktar){
         if (this.getPara() >= miktar){
             this.para -= miktar;

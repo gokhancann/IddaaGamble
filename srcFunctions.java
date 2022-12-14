@@ -41,6 +41,15 @@ public class srcFunctions {
             "=============================================================================="
     };
 
+    public static final String[] kasaMenu = {
+            "==============================================================================",
+            "1 - Kasadaki bilgileri göster.",
+            "2 - Para yükle.",
+            "3 - Para çek.",
+            "4 - Ana menüye dön.",
+            "=============================================================================="
+    };
+
 
     // Display Menu
     static void displayMenu(String[] str) {
@@ -319,5 +328,80 @@ public class srcFunctions {
             }
         }
         kupon.add(new KgVarYok(bahisKodu, inputKG, oran));
+    }
+
+
+    public static void handleKasa(Kasa kasa) throws InterruptedException {
+        Scanner inputObj = new Scanner(System.in);  // Create a Scanner object
+        boolean kasaCheck = true;
+
+        while (kasaCheck) {
+            srcFunctions.displayMenu(srcFunctions.kasaMenu);
+            String input = "";
+            System.out.print("Seçiminiz: ");
+            input = inputObj.nextLine();
+
+            if (input.equals("1")) {
+                kasa.DisplayKasa();
+            } else if (input.equals("2")) {
+
+                boolean paraGirisi = true;
+
+                double para = 0;
+
+                while (paraGirisi) {
+                    System.out.print("Yüklemek istediğiniz tutarı giriniz: ");
+                    input = inputObj.nextLine();
+
+                    try {
+                        para = Double.parseDouble(input);
+                        if (para > 0) {
+                            kasa.paraYukle(para);
+                            loading("Para yükleniyor");
+                            System.out.println("Para yükleme işlemi başarıyla gerçekleştirilmiştir.");
+                            paraGirisi = false;
+                        } else {
+                            System.out.println("Lütfen pozitif bir sayı giriniz.");
+                        }
+                    } catch (Exception e) {
+                        System.out.println("Lütfen pozitif bir sayı giriniz.");
+                    }
+                }
+            } else if (input.equals("3")) {
+
+                boolean paraGirisi = true;
+                double para = 0;
+
+                while (paraGirisi) {
+                    System.out.print("Çekmek istediğiniz tutarı giriniz: ");
+                    input = inputObj.nextLine();
+
+                    try {
+                        para = Double.parseDouble(input);
+
+                        if (para > 0) {
+                            if (para <= kasa.getPara()) {
+                                kasa.paraCek(para);
+                                loading("Para çekiliyor");
+                                System.out.println("Para çekim işlemi başarıyla gerçekleştirilmiştir.");
+                                paraGirisi = false;
+                            } else {
+                                System.out.println("Çekilecek miktar kasadaki paradan büyük olamaz.");
+                            }
+                        } else {
+                            System.out.println("Lütfen pozitif bir sayı giriniz.");
+                        }
+                    } catch (Exception e) {
+                        System.out.println("Lütfen pozitif bir sayı giriniz.");
+                    }
+                }
+            } else if (input.equals("4")) {
+                kasaCheck = false;
+            } else {
+                System.out.println("Yanlış bir seçim yaptınız. Tekrar deneyiniz.");
+            }
+        }
+
+
     }
 }

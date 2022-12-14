@@ -192,8 +192,9 @@ public class Main {
                 Bahis.displayFixture(fixture);
             } else if (input.equals("4")) {
                 System.out.println("Kasaya Hoşgeldiniz");
-                Kasa.DisplayKasa();
-                // DisplayWallet yazilacak
+
+                srcFunctions.handleKasa(Kasa);
+
             } else if (input.equals("5")) {
                 System.out.println("Görüşmek üzere...");
                 menuLogic = false;
