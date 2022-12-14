@@ -1,0 +1,20 @@
+101	Wellington P	WS Wanderers	2.12	3.03	2.50	1.77	1.59	1.77	1.59
+102	Chengdu R.	Shanghai Sipg	2.06	2.88	2.47	1.64	1.62	1.64	1.62
+103	Hebei	Beijin Guoan	2.06	2.88	2.47	1.64	1.62	1.64	1.62
+104	Sudeva Delhi 	Churchill Bro	3.06	2.85	1.78	1.53	1.74	1.53	1.74
+105	Sydney	Mel. City	2.45	3.12	2.12	1.96	1.47	1.96	1.47
+106	Nice	Girona	2.61	3.00	1.92	1.83	1.47	1.83	1.47
+107	Keçiörengücü	Adanaspor	1.58	3.25	3.81	1.81	1.57	1.81	1.57
+108	Tuzlaspor	Rizespor	1.58	3.25	3.81	1.81	1.57	1.81	1.57
+109	R. Valladolid	Lille	2.06	2.98	2.40	1.82	1.48	1.82	1.48
+110	Rayong FC	Chainat FC	1.47	3.30	3.96	1.77	1.51	1.77	1.51
+111	Shenzhen	Changchun Y.	3.40	3.00	1.64	1.79	1.51	1.79	1.51
+112	Persija Jakar	Persik Kediri	1.09	4.58	10.05	1.67	1.60	1.67	1.60
+113	Sporting Lisb	Amora FC	2.15	2.77	2.43	1.56	1.71	1.56	1.71
+114	Nakhon SI Uni	Ayutthaya Ut	1.44	3.33	4.07	1.73	1.55	1.73	1.55
+115	Sheffield Utd	Zhejiang (D)	2.20	3.10	2.40	3.00	1.17	3.00	1.17
+116	Perth Glory	Western U.	2.67	3.12	1.97	1.89	1.51	1.89	1.51
+117	G. Evergrande	Guangzhou RF	2.39	2.87	2.13	1.63	1.63	1.63	1.63
+118	Zhejiang	Meizhou Hakka	2.39	2.87	2.13	1.63	1.63	1.63	1.63
+119	Blackburn	Preston	2.02	2.79	2.87	1.44	2.01	1.44	2.01
+120	Bochum	Karlsruhe	1.57	3.53	3.13	3.03	1.12	3.03	1.12
