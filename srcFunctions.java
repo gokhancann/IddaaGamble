@@ -4,9 +4,9 @@ import java.util.*;
 public class srcFunctions {
     public static final String[] mainMenu = {
             "Menu:",
-            "1 - Bahis kuponu oluştur.",
-            "2 - Oluşturulan kuponu görüntüle.",
-            "3 - Fikstürü görüntüle.",
+            "1 - Fikstürü görüntüle.",
+            "2 - Bahis kuponu oluştur/kupona maç ekle.",
+            "3 - Oluşturulan kuponu görüntüle/kupondan maç çıkar/kuponu oyna.",
             "4 - Kasa işlemleri.",
             "5 - Çıkış",
     };
@@ -41,6 +41,16 @@ public class srcFunctions {
             "=============================================================================="
     };
 
+    public static final String[] kuponeditmenu = {
+            "==============================================================================",
+            "1 - Kuponu oyna.",
+            "2 - Maç çıkar",
+            "3 - Ana menüye dön.",
+            "(Kupona maç eklemek için ana menüye dönüp 2 Nolu bahis kuponu oluştur/kupona maç ekle'yi seçiniz)",
+            "=============================================================================="
+    };
+
+
     public static final String[] kasaMenu = {
             "==============================================================================",
             "1 - Kasadaki bilgileri göster.",
@@ -61,7 +71,7 @@ public class srcFunctions {
 
     // Display Coupon
     static void displayCoupon(ArrayList<Bahis> kup) {
-
+        System.out.println("Kuponunuz:");
         String bahisTuru = "";
         double toplamOran = 1;
         for (Bahis i : kup) {
@@ -167,6 +177,8 @@ public class srcFunctions {
         }
         System.out.println();
     }
+
+
 
 
     /////////////////////////////////////
@@ -404,4 +416,6 @@ public class srcFunctions {
 
 
     }
+
+
 }

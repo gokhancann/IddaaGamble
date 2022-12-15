@@ -3,8 +3,6 @@ import java.io.FileNotFoundException;
 import java.util.*;
 
 public class Main {
-    ///celil//
-
 
     public static void main(String[] args) throws InterruptedException {
         // kasa olustur
@@ -54,6 +52,10 @@ public class Main {
             input = inputObj.nextLine();  // Read user input
 
             if (input.equals("1")) {
+                // Display Fixture
+                Bahis.displayFixture(fixture);
+            }
+            else if (input.equals("2")) {
                 boolean bahisLogic = true;
                 //System.out.println("Yanlış giriş yaptınız. Lütfen tekrar giriş yapınız");
                 while (bahisLogic) {
@@ -129,77 +131,121 @@ public class Main {
                         }
                     }
                 }
-            } else if (input.equals("2")) {
-
+            }
+            else if (input.equals("3")) {
                 // Kupon Uzunlugu 1'den buyukse calisir.
                 if (kupon.size() > 0) {
                     srcFunctions.displayCoupon(kupon);
-
-                    boolean kuponOynamaCheck = true;
-                    while (kuponOynamaCheck) {
-                        System.out.print("Kuponu oynamak istiyor musunuz? [y/n]: ");
+                    boolean Kuponmenucheck=true;
+                    while (Kuponmenucheck) {
+                        srcFunctions.displayMenu(srcFunctions.kuponeditmenu);
+                        input="";
                         input = inputObj.nextLine();
+                        if (input.equals("1")) {
+                            Kuponmenucheck=false;
 
-                        if (input.equalsIgnoreCase("y")) {
+                            boolean kuponOynamaCheck = true;
+                            while (kuponOynamaCheck) {
+                                System.out.print("Kuponu oynamak istiyor musunuz? [y/n]: ");
+                                input = inputObj.nextLine();
 
-                            if (Kasa.getPara() <= 0) {
-                                Kasa.DisplayKasa();
-                                System.out.println("Bahis yapmak için lütfen para yükleyiniz.");
-                                srcFunctions.loading("Ana menüye dönülüyor");
-                                kuponOynamaCheck = false;
-                            } else {
-                                // Kasa 0'dan buyukse kasa icindeki bahis tutarina set edildi
-                                Kasa.setBahisParasi(srcFunctions.bahisTutariHandle());
+                                if (input.equalsIgnoreCase("y")) {
 
-                                //
-                                srcFunctions.displayCoupon(kupon);
-
-
-                                System.out.print("Yukarda görülen kupona " + Kasa.getBahisParasi() + " TL bahis yapmak istediğinize emin misiniz?\n");
-                                System.out.print("Bu işlemden sonra maçlar oynatılacaktır [y/n]: ");
-                                input = inputObj.nextLine();  // Read user input
-
-
-                                if (srcFunctions.yesNoHandle(input)) {
-
-                                    if (input.equalsIgnoreCase("y")) {
-
-                                        // Maclar yaptiliyor
-                                        srcFunctions.playCoupon(kupon, Kasa, Kasa.getBahisParasi(), fixture);
-                                        // Maclar bitti. Sonuclar... (kasa update edildi)
-                                        srcFunctions.displayFinalCoupon(kupon, Kasa);
-
+                                    if (Kasa.getPara() <= 0) {
                                         Kasa.DisplayKasa();
-
-                                    } else {
+                                        System.out.println("Bahis yapmak için lütfen para yükleyiniz.");
                                         srcFunctions.loading("Ana menüye dönülüyor");
+                                        kuponOynamaCheck = false;
+                                    } else {
+                                        // Kasa 0'dan buyukse kasa icindeki bahis tutarina set edildi
+                                        Kasa.setBahisParasi(srcFunctions.bahisTutariHandle());
+
+                                        //
+                                        srcFunctions.displayCoupon(kupon);
+
+
+                                        System.out.print("Yukarda görülen kupona " + Kasa.getBahisParasi() + " TL bahis yapmak istediğinize emin misiniz?\n");
+                                        System.out.print("Bu işlemden sonra maçlar oynatılacaktır [y/n]: ");
+                                        input = inputObj.nextLine();  // Read user input
+
+
+                                        if (srcFunctions.yesNoHandle(input)) {
+
+                                            if (input.equalsIgnoreCase("y")) {
+
+                                                // Maclar yaptiliyor
+                                                srcFunctions.playCoupon(kupon, Kasa, Kasa.getBahisParasi(), fixture);
+                                                // Maclar bitti. Sonuclar... (kasa update edildi)
+                                                srcFunctions.displayFinalCoupon(kupon, Kasa);
+
+                                                Kasa.DisplayKasa();
+                                                kupon = new ArrayList<>(); //kupon oynandıktan sonra kuponu boşaltıyor.//
+
+                                            } else {
+                                                srcFunctions.loading("Ana menüye dönülüyor");
+                                            }
+                                        }
+                                        kuponOynamaCheck = false;
+                                    }
+                                } else if (input.equalsIgnoreCase("n")) {
+                                    kuponOynamaCheck = false;
+                                } else {
+                                    System.out.println("Hatalı giriş yapıldı. Lütfen evet için 'y' hayır için 'n' girişi yapınız.");
+                                }
+                            }
+                        }
+                        else if (input.equals("2")){
+                            boolean logiccikar=true;
+                            while (logiccikar) {
+                                System.out.println("Çıkarmak istediğiniz maç kodunu giriniz");
+                                input = inputObj.nextLine();
+                                int i = 0;
+                                boolean girmedi = true;
+                                while (i < kupon.size()) {
+                                    if (kupon.get(i).oyunKodu.equals(input)) {
+                                        kupon.remove(i);
+                                        girmedi = false;
+                                        System.out.println("Girmiş olduğunuz " + input + " kodlu maç kodu kuponunuzdan çıkarılmıştır.");
+                                        logiccikar=false;
+                                    } else {
+                                        i++;
                                     }
                                 }
-                                kuponOynamaCheck = false;
+                                if (girmedi) {
+                                    System.out.println("Girmiş olduğunuz maç kodu kuponunuzda zaten bulunmamaktadır.");
+                                }
                             }
-                        } else if (input.equalsIgnoreCase("n")) {
-                            kuponOynamaCheck = false;
-                        } else {
-                            System.out.println("Hatalı giriş yapıldı. Lütfen evet için 'y' hayır için 'n' girişi yapınız.");
+
+
+                            //MAC ÇIKAR//
                         }
-                    }
-                } else {
+                        else if (input.equals("3")){
+                            Kuponmenucheck=false;
+                        }
+                        else{
+                            System.out.println("Hatalı Giriş Yaptınız.");
+                        }
+                        }
+
+
+                }
+                else {
                     System.out.println("Kuponunuz boştur.");
                 }
 
 
-            } else if (input.equals("3")) {
-                // Display Fixture
-                Bahis.displayFixture(fixture);
-            } else if (input.equals("4")) {
+            }
+            else if (input.equals("4")) {
                 System.out.println("Kasaya Hoşgeldiniz");
 
                 srcFunctions.handleKasa(Kasa);
 
-            } else if (input.equals("5")) {
+            }
+            else if (input.equals("5")) {
                 System.out.println("Görüşmek üzere...");
                 menuLogic = false;
-            } else {
+            }
+            else {
                 System.out.println("Hatalı Giriş Yaptınız.\nLütfen 1 ve 5 arası bir sayı giriniz");
             }
         }

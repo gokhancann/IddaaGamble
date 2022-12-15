@@ -1,0 +1,328 @@
+101	Wellington P	WS Wanderers	2.12	3.03	2.50	1.77	1.59	1.77	1.59
+102	Chengdu R.	Shanghai Sipg	2.06	2.88	2.47	1.64	1.62	1.64	1.62
+103	Hebei	Beijin Guoan	2.06	2.88	2.47	1.64	1.62	1.64	1.62
+104	Sudeva Delhi 	Churchill Bro	3.06	2.85	1.78	1.53	1.74	1.53	1.74
+105	Sydney	Mel. City	2.45	3.12	2.12	1.96	1.47	1.96	1.47
+106	Nice	Girona	2.61	3.00	1.92	1.83	1.47	1.83	1.47
+107	Keçiörengücü	Adanaspor	1.58	3.25	3.81	1.81	1.57	1.81	1.57
+108	Tuzlaspor	Rizespor	1.58	3.25	3.81	1.81	1.57	1.81	1.57
+109	R. Valladolid	Lille	2.06	2.98	2.40	1.82	1.48	1.82	1.48
+110	Rayong FC	Chainat FC	1.47	3.30	3.96	1.77	1.51	1.77	1.51
+111	Shenzhen	Changchun Y.	3.40	3.00	1.64	1.79	1.51	1.79	1.51
+112	Persija Jakar	Persik Kediri	1.09	4.58	10.05	1.67	1.60	1.67	1.60
+113	Sporting Lisb	Amora FC	2.15	2.77	2.43	1.56	1.71	1.56	1.71
+114	Nakhon SI Uni	Ayutthaya Ut	1.44	3.33	4.07	1.73	1.55	1.73	1.55
+115	Sheffield Utd	Zhejiang (D)	2.20	3.10	2.40	3.00	1.17	3.00	1.17
+116	Perth Glory	Western U.	2.67	3.12	1.97	1.89	1.51	1.89	1.51
+117	G. Evergrande	Guangzhou RF	2.39	2.87	2.13	1.63	1.63	1.63	1.63
+118	Zhejiang	Meizhou Hakka	2.39	2.87	2.13	1.63	1.63	1.63	1.63
+119	Blackburn	Preston	2.02	2.79	2.87	1.44	2.01	1.44	2.01
+120	Bochum	Karlsruhe	1.57	3.53	3.13	3.03	1.12	3.03	1.12
+121	Feyenoord	Oostende	1.57	3.53	3.13	3.03	1.12	3.03	1.12
+122	Gornik Zabrze	M. Legnica	1.57	3.53	3.13	3.03	1.12	3.03	1.12
+123	Osasuna	Lorient	1.57	3.53	3.13	3.03	1.12	3.03	1.12
+124	Paderborn	Osnabruck	1.57	3.53	3.13	3.03	1.12	3.03	1.12
+125	Rangers	B. Leverkusen	1.57	3.53	3.13	3.03	1.12	3.03	1.12
+126	Tianjin Teda	Henan Jianye	2.53	2.93	2.00	1.70	1.57	1.70	1.57
+127	NK Bravo	Koper	2.34	2.80	2.21	1.56	1.72	1.56	1.72
+128	FC Goa	Odisha FC	1.81	3.15	2.72	1.93	1.41	1.93	1.41
+129	Birkirkara FC	Balzan FC	1.66	2.91	3.45	1.55	1.72	1.55	1.72
+130	Pieta Hotspur	Sirens FC	1.66	2.91	3.45	1.55	1.72	1.55	1.72
+131	Babelsberg 03	E. Cottbus	3.42	3.30	1.56	1.94	1.41	1.94	1.41
+132	ZFC Meuselwit	Tennis Boruss	3.42	3.30	1.56	1.94	1.41	1.94	1.41
+133	R. Granada	Ucam Murcia C	2.74	2.79	1.95	1.49	1.82	1.49	1.82
+134	Rotherham	Bristol City	2.63	2.92	2.09	1.58	1.80	1.58	1.80
+135	Ipswich T.	Peterborough	1.37	3.43	4.71	1.70	1.57	1.70	1.57
+136	Shrewsbury	Bolton	1.37	3.43	4.71	1.70	1.57	1.70	1.57
+137	Dartford	Bath City	1.66	3.15	3.16	1.77	1.51	1.77	1.51
+138	Denizlispor	Altay	2.57	2.97	2.09	1.59	1.77	1.59	1.77
+139	Augsburg	Grasshoppers	1.44	3.59	3.80	2.27	1.27	2.27	1.27
+140	Lugano	Monza	1.44	3.59	3.80	2.27	1.27	2.27	1.27
+141	Harrogate Tow	Northampton	2.60	2.84	2.00	1.54	1.74	1.54	1.74
+142	Balingen	1921 Aalen	1.58	3.25	3.36	1.87	1.45	1.87	1.45
+143	Hessen Kassel	Frankfurt 189	1.58	3.25	3.36	1.87	1.45	1.87	1.45
+144	Homburg-Saar	SGV Freiberg	1.58	3.25	3.36	1.87	1.45	1.87	1.45
+145	Mainz 05 II	Barockstadt	1.58	3.25	3.36	1.87	1.45	1.87	1.45
+146	Offenbacher	RW Koblenz	1.58	3.25	3.36	1.87	1.45	1.87	1.45
+147	Steinbach H.	Bahlinger	1.58	3.25	3.36	1.87	1.45	1.87	1.45
+148	Stuttgart II	Wormatia 08 	1.58	3.25	3.36	1.87	1.45	1.87	1.45
+149	Ulm 1846	Eintracht Tri	1.58	3.25	3.36	1.87	1.45	1.87	1.45
+150	Carl Zeiss Je	Lok. Leipzig	1.75	3.17	2.85	1.89	1.44	1.89	1.44
+151	M.Gladbach II	1. FC Duren	1.53	3.30	3.53	1.84	1.46	1.84	1.46
+152	SV 19 Straele	ROT Weiss Obe	1.53	3.30	3.53	1.84	1.46	1.84	1.46
+153	W.brück	Wuppertaler	1.53	3.30	3.53	1.84	1.46	1.84	1.46
+154	Wattenscheid	Rot Weis Ahl	1.53	3.30	3.53	1.84	1.46	1.84	1.46
+155	Connah's	Aberystwyth	1.12	4.69	7.80	2.07	1.35	2.07	1.35
+156	Flint Town Ut	Cardiff MU	1.12	4.69	7.80	2.07	1.35	2.07	1.35
+157	Alessandria	Aquila Montev	2.09	2.59	2.68	1.37	2.02	1.37	2.02
+158	ASD San Donat	Imolese	2.09	2.59	2.68	1.37	2.02	1.37	2.02
+159	Reggiana	Olbia	2.09	2.59	2.68	1.37	2.02	1.37	2.02
+160	Torres Sassar	Gubbio	2.09	2.59	2.68	1.37	2.02	1.37	2.02
+161	Vis Pesaro	Cesena	2.09	2.59	2.68	1.37	2.02	1.37	2.02
+162	Reading	Coventry City	2.24	2.81	2.49	1.48	1.94	1.48	1.94
+163	Burton	Derby County	2.65	2.93	1.93	1.64	1.63	1.64	1.63
+164	Forest Green	Cheltenham	2.65	2.93	1.93	1.64	1.63	1.64	1.63
+165	Udinese	West Ham Utd.	2.83	3.17	1.76	1.93	1.42	1.93	1.42
+166	Bamber Bridg	Stafford Ran	2.21	3.14	2.15	1.83	1.47	1.83	1.47
+167	Boreham Wood	Southend Utd.	2.00	2.85	2.60	1.47	1.83	1.47	1.83
+168	Basford Utd	Royston Town	1.83	3.08	2.73	1.98	1.39	1.98	1.39
+169	Northeast Utd	Chennaiyin FC	2.92	3.08	1.76	1.86	1.45	1.86	1.45
+170	Buxton FC	Peterborough 	2.21	2.85	2.31	1.59	1.67	1.59	1.67
+171	Slough Town	Hav&Waterloo	3.88	3.39	1.46	1.83	1.47	1.83	1.47
+172	Elgin City	Clyde Bank	2.10	3.03	2.32	1.86	1.45	1.86	1.45
+173	Köln II	1. FC Kaan-Ma	1.90	3.18	2.53	2.02	1.38	2.02	1.38
+174	Fas	Portekiz	4.70	3.04	1.51	1.42	2.04	1.42	2.04
+175	İngiltere (D)	Fas (D)	1.85	3.40	2.80	1.29	2.43	1.29	2.43
+176	M'Brough (D)	Millwall (D)	1.85	3.40	2.80	1.29	2.43	1.29	2.43
+177	Portekiz (D)	Fransa (D)	1.85	3.40	2.80	1.29	2.43	1.29	2.43
+178	Blackpool	Birmingham	2.41	2.87	2.27	1.54	1.84	1.54	1.84
+179	M'Brough	Luton	2.41	2.87	2.27	1.54	1.84	1.54	1.84
+180	Millwall	Wigan Ath.	2.41	2.87	2.27	1.54	1.84	1.54	1.84
+181	Sheffield Utd	Huddersfield	2.41	2.87	2.27	1.54	1.84	1.54	1.84
+182	Stoke City	Cardiff City	2.41	2.87	2.27	1.54	1.84	1.54	1.84
+183	Swansea	Norwich	2.41	2.87	2.27	1.54	1.84	1.54	1.84
+184	Bristol R.	Port Vale	2.13	2.85	2.40	1.61	1.65	1.61	1.65
+185	Cambridge U.	Plymouth	2.13	2.85	2.40	1.61	1.65	1.61	1.65
+186	Exeter City	Sheffield Wed	2.13	2.85	2.40	1.61	1.65	1.61	1.65
+187	Lincoln	Wycombe	2.13	2.85	2.40	1.61	1.65	1.61	1.65
+188	MK Dons	Fleetwood	2.13	2.85	2.40	1.61	1.65	1.61	1.65
+189	Oxford Utd.	Barnsley	2.13	2.85	2.40	1.61	1.65	1.61	1.65
+190	Espanyol	Torino	2.18	3.00	2.25	1.78	1.51	1.78	1.51
+191	Grimsby Town	Tranmere	2.11	2.67	2.58	1.44	1.89	1.44	1.89
+192	Newport C.	Doncaster	2.11	2.67	2.58	1.44	1.89	1.44	1.89
+193	Stevenage	Mansfield	2.11	2.67	2.58	1.44	1.89	1.44	1.89
+194	Sutton Utd.	Colchester	2.11	2.67	2.58	1.44	1.89	1.44	1.89
+195	Swindon Town	Wimbledon	2.11	2.67	2.58	1.44	1.89	1.44	1.89
+196	G'borough Tr	Warrington Ry	1.63	3.17	3.25	1.73	1.54	1.73	1.54
+197	Morpeth Town	Warrington T	1.63	3.17	3.25	1.73	1.54	1.73	1.54
+198	Bromley	Wealdstone	1.53	3.20	3.66	1.70	1.57	1.70	1.57
+199	Chesterfield	Dorking Wand	1.53	3.20	3.66	1.70	1.57	1.70	1.57
+200	Eastleigh	Wrexham	1.53	3.20	3.66	1.70	1.57	1.70	1.57
+201	Maidenhead Ut	Notts C.	1.53	3.20	3.66	1.70	1.57	1.70	1.57
+202	Maidstone Utd	Altrincham	1.53	3.20	3.66	1.70	1.57	1.70	1.57
+203	Solihull Moor	Aldershot	1.53	3.20	3.66	1.70	1.57	1.70	1.57
+204	Woking	York City	1.53	3.20	3.66	1.70	1.57	1.70	1.57
+205	Yeovil Town	Scunthorpe	1.53	3.20	3.66	1.70	1.57	1.70	1.57
+206	Dungannon S	Carrick Range	2.28	2.92	2.20	1.76	1.53	1.76	1.53
+207	Glentoran	Glenavon	2.28	2.92	2.20	1.76	1.53	1.76	1.53
+208	Larne	Newry Cit	2.28	2.92	2.20	1.76	1.53	1.76	1.53
+209	Portadown	Ballymena Utd	2.28	2.92	2.20	1.76	1.53	1.76	1.53
+210	Ards	Newington YC	1.59	3.40	3.19	2.36	1.25	2.36	1.25
+211	Ballyclare Co	Annagh United	1.59	3.40	3.19	2.36	1.25	2.36	1.25
+212	Dundela	Dergview	1.59	3.40	3.19	2.36	1.25	2.36	1.25
+213	H&W Welders	Ballinamallar	1.59	3.40	3.19	2.36	1.25	2.36	1.25
+214	Institute	Loughgall	1.59	3.40	3.19	2.36	1.25	2.36	1.25
+215	Albans City	Chelmsford C	2.35	2.86	2.16	1.68	1.58	1.68	1.58
+216	Chippenham	Ebbsfleet Uni	2.35	2.86	2.16	1.68	1.58	1.68	1.58
+217	C Rangers	Hungerford To	2.35	2.86	2.16	1.68	1.58	1.68	1.58
+218	Dover	Worthing	2.35	2.86	2.16	1.68	1.58	1.68	1.58
+219	East.Borough	Oxford City	2.35	2.86	2.16	1.68	1.58	1.68	1.58
+220	Farnborough	H Hempstead	2.35	2.86	2.16	1.68	1.58	1.68	1.58
+221	Hampton&Rich	Cheshunt FC	2.35	2.86	2.16	1.68	1.58	1.68	1.58
+222	Kelty Hearts	Linfield	2.96	3.17	1.71	1.86	1.45	1.86	1.45
+223	Queen's Park	Montrose	2.96	3.17	1.71	1.86	1.45	1.86	1.45
+224	Raith Rovers	Greenock Mort	2.96	3.17	1.71	1.86	1.45	1.86	1.45
+225	East Fife	Bonnyrigg Ros	1.95	3.05	2.53	1.89	1.44	1.89	1.44
+226	Stenhousemur	Forfar	1.95	3.05	2.53	1.89	1.44	1.89	1.44
+227	Cadiz B	Betis Deporti	2.26	2.57	2.47	1.31	2.15	1.31	2.15
+228	Beaconsfield	Salisbury	1.83	3.07	2.76	1.97	1.39	1.97	1.39
+229	Chesham UTD	Plymouth Park	1.83	3.07	2.76	1.97	1.39	1.97	1.39
+230	Harrow B	Tiverton	1.83	3.07	2.76	1.97	1.39	1.97	1.39
+231	Hayes & Yeadi	Metr. Police	1.83	3.07	2.76	1.97	1.39	1.97	1.39
+232	Merthyr Town	Gosport	1.83	3.07	2.76	1.97	1.39	1.97	1.39
+233	North Leigh F	Dorchester	1.83	3.07	2.76	1.97	1.39	1.97	1.39
+234	Swindon S.	H Wintney	1.83	3.07	2.76	1.97	1.39	1.97	1.39
+235	Truro City	Hanwell Town 	1.83	3.07	2.76	1.97	1.39	1.97	1.39
+236	Weston S. Mar	Bracknell Tow	1.83	3.07	2.76	1.97	1.39	1.97	1.39
+237	Yate Town	Hendon	1.83	3.07	2.76	1.97	1.39	1.97	1.39
+238	Chester	Alfreton	1.65	3.07	3.26	1.64	1.62	1.64	1.62
+239	Gloucester	Darlington	1.65	3.07	3.26	1.64	1.62	1.64	1.62
+240	Kings Lynn	Bradford P A	1.65	3.07	3.26	1.64	1.62	1.64	1.62
+241	Scarborough	Brackley	1.65	3.07	3.26	1.64	1.62	1.64	1.62
+242	Southport	Boston Utd	1.65	3.07	3.26	1.64	1.62	1.64	1.62
+243	Spennymoor	Hereford	1.65	3.07	3.26	1.64	1.62	1.64	1.62
+244	UD Mutilvera	Alfaro CD	1.87	2.77	2.95	1.45	1.87	1.45	1.87
+245	Burgos CF Pro	CD Cristo Atl	2.87	2.73	1.91	1.46	1.84	1.46	1.84
+246	Göztepe	Manisa FK	1.95	3.06	2.76	1.74	1.62	1.74	1.62
+247	AD San Juan	UD Logrones B	1.86	2.79	2.92	1.44	1.87	1.44	1.87
+248	Racing Rioja 	Tudelano	1.86	2.79	2.92	1.44	1.87	1.44	1.87
+249	CD Guijuelo	Bergantinos C	1.79	2.73	3.21	1.46	1.85	1.46	1.85
+250	R. Sociedad B	CF La Nucia	1.83	2.83	2.97	1.36	2.05	1.36	2.05
+251	Celta Vigo B	Cultural Leon	1.65	3.05	3.30	1.61	1.66	1.61	1.66
+252	AS Lucchese L	Carrarese	2.20	2.55	2.56	1.31	2.16	1.31	2.16
+253	Pontedera	Fermana	2.20	2.55	2.56	1.31	2.16	1.31	2.16
+254	Rimini	Ancona 1905	2.20	2.55	2.56	1.31	2.16	1.31	2.16
+255	Siena	US Fiorenzuol	2.20	2.55	2.56	1.31	2.16	1.31	2.16
+256	Olympiakos	Nottingham F.	1.83	3.14	2.68	2.22	1.29	2.22	1.29
+257	Real Betis	Man. United	1.83	3.14	2.68	2.22	1.29	2.22	1.29
+258	Hermannstadt	Farul Cons.	2.84	2.63	1.98	1.28	2.24	1.28	2.24
+259	Real Madrid C	Talavera R	1.16	4.33	6.96	1.90	1.43	1.90	1.43
+260	San Fernando	Algeciras CF	1.16	4.33	6.96	1.90	1.43	1.90	1.43
+261	Sevilla Atlet	Xerez Deporti	1.83	2.68	3.14	1.34	2.09	1.34	2.09
+262	Club Deportiv	Amorebieta	1.51	3.15	3.90	1.45	1.87	1.45	1.87
+263	Numancia	Logrones	1.51	3.15	3.90	1.45	1.87	1.45	1.87
+264	Andorra	Leganes	1.91	2.70	3.23	1.29	2.40	1.29	2.40
+265	Villarreal B	Tenerife	1.91	2.70	3.23	1.29	2.40	1.29	2.40
+266	İngiltere	Fransa	2.54	2.83	2.20	1.47	1.96	1.47	1.96
+267	Lierse Kempen	FCV Dender EH	1.55	3.40	3.36	2.21	1.30	2.21	1.30
+268	Uniao Leiria	Real SC Massa	1.20	3.83	6.89	1.58	1.69	1.58	1.69
+269	R. Zaragoza	Huesca	1.73	2.71	3.92	1.29	2.41	1.29	2.41
+270	Oliveirense	FC Arouca	3.07	3.02	1.72	1.57	1.71	1.57	1.71
+271	Motagua	Olimpia	2.42	2.56	2.31	1.37	2.02	1.37	2.02
+272	CC Mariners (	Melbourne V. 	2.25	3.10	2.35	2.66	1.23	2.66	1.23
+273	CC Mariners	New. Jets	1.62	3.35	3.51	2.14	1.38	2.14	1.38
+274	Macarthur	Melbourne V.	3.30	3.16	1.72	1.99	1.45	1.99	1.45
+275	Sreenidi Decc	Aizawl FC	1.72	2.92	3.20	1.64	1.62	1.64	1.62
+276	Boluspor	Bandırmaspor	1.89	2.91	3.03	1.59	1.77	1.59	1.77
+277	Real Sociedad	Sestao River 	2.97	2.70	1.89	1.38	2.02	1.38	2.02
+278	Sangiuliano C	Triestina	2.50	2.60	2.22	1.44	1.89	1.44	1.89
+279	CD Brea	SD Tarazona	2.39	2.58	2.33	1.35	2.06	1.35	2.06
+280	Trau FC	Neroca FC	1.86	2.84	2.89	1.55	1.72	1.55	1.72
+281	Vilafranquens	Belenenses	1.59	3.12	3.45	1.68	1.59	1.68	1.59
+282	Linares Dep.	AD Ceuta	1.61	2.95	3.62	1.38	2.01	1.38	2.01
+283	Merida AD	Badajoz	1.61	2.95	3.62	1.38	2.01	1.38	2.01
+284	RB Linense	Unionistas CF	1.61	2.95	3.62	1.38	2.01	1.38	2.01
+285	Ath. Bilbao B	CDA Baleares	2.27	2.76	2.30	1.41	1.93	1.41	1.93
+286	Calahorra	Castellon	2.27	2.76	2.30	1.41	1.93	1.41	1.93
+287	SD Logrones	UE Cornella	2.27	2.76	2.30	1.41	1.93	1.41	1.93
+288	AE Prat	CE Manresa	2.48	2.50	2.30	1.32	2.14	1.32	2.14
+289	CD Ebro	Valencia	2.48	2.50	2.30	1.32	2.14	1.32	2.14
+290	CD Ibiza Isla	UE Olot	2.48	2.50	2.30	1.32	2.14	1.32	2.14
+291	CD Teruel	Pena Deportiv	2.48	2.50	2.30	1.32	2.14	1.32	2.14
+292	RCD Espanyol 	SD Formentera	2.48	2.50	2.30	1.32	2.14	1.32	2.14
+293	RCD Mallorca 	Club Lleida E	2.48	2.50	2.30	1.32	2.14	1.32	2.14
+294	UE Llagostera	Terrassa FC	2.48	2.50	2.30	1.32	2.14	1.32	2.14
+295	Polvorin FC	Coruxo	2.69	2.68	2.03	1.39	1.97	1.39	1.97
+296	Rayo Cantabri	Real Oviedo B	2.69	2.68	2.03	1.39	1.97	1.39	1.97
+297	UP Langreo	CD Arenteiro	2.69	2.68	2.03	1.39	1.97	1.39	1.97
+298	AD Union Adar	CD Leganes B	1.81	2.76	3.11	1.36	2.05	1.36	2.05
+299	Atl. Madrid B	CD Guadalajar	1.81	2.76	3.11	1.36	2.05	1.36	2.05
+300	CD Estepona	UD Socuellamo	1.81	2.76	3.11	1.36	2.05	1.36	2.05
+301	FC Cerdanyola	Melilla	1.81	2.76	3.11	1.36	2.05	1.36	2.05
+302	UD Montijo	CD Atletico P	1.81	2.76	3.11	1.36	2.05	1.36	2.05
+303	Willem II (D)	Las Palmas (D	2.25	3.10	2.35	2.29	1.33	2.29	1.33
+304	Willem II	Breda	1.42	3.40	4.20	1.81	1.49	1.81	1.49
+305	Cagliari	Perugia	1.72	2.95	3.57	1.52	1.87	1.52	1.87
+306	Tabor Sezana	O. Ljubljana	3.83	3.21	1.51	1.71	1.56	1.71	1.56
+307	Berliner AK	Viktoria Berl	1.22	4.08	5.85	1.95	1.40	1.95	1.40
+308	FSV 63 Lucken	Dynamo	1.22	4.08	5.85	1.95	1.40	1.95	1.40
+309	Aqvital Csakv	Haladas	2.17	2.85	2.35	1.70	1.57	1.70	1.57
+310	Bekescsaba	Pecs MFC	2.17	2.85	2.35	1.70	1.57	1.70	1.57
+311	Budafoki Mte	FC Ajka	2.17	2.85	2.35	1.70	1.57	1.70	1.57
+312	Dorogi	Kazincbarcika	2.17	2.85	2.35	1.70	1.57	1.70	1.57
+313	Mosonmagyar	Tiszakecske F	2.17	2.85	2.35	1.70	1.57	1.70	1.57
+314	NyiregyhazaS	ETO Gyor	2.17	2.85	2.35	1.70	1.57	1.70	1.57
+315	Szentlorinc	Gyirmot Gyor	2.17	2.85	2.35	1.70	1.57	1.70	1.57
+316	U. Cluj	Uta Arad	1.95	2.67	2.87	1.30	2.20	1.30	2.20
+317	RWD Molenbeek	R. Excelsior	1.13	4.52	7.46	1.98	1.38	1.98	1.38
+318	G.Birliği	Erzurumspor	2.49	3.00	2.14	1.76	1.61	1.76	1.61
+319	QPR	Burnley	2.67	2.96	2.04	1.63	1.73	1.63	1.73
+320	UD Ibiza	Malaga	2.03	2.68	2.97	1.34	2.27	1.34	2.27
+321	Gillingham	Bradford City	2.72	2.71	2.00	1.40	1.95	1.40	1.95
+322	Chem Leipzig	Weiss Erfurt	2.20	3.17	2.15	2.02	1.37	2.02	1.37
+323	Almere City (	Eibar (D)	1.80	3.75	2.70	2.11	1.40	2.11	1.40
+324	Jong Ajax (D)	Casa Pia (D)	1.80	3.75	2.70	2.11	1.40	2.11	1.40
+325	Telstar (D)	VVV Venlo (D)	1.80	3.75	2.70	2.11	1.40	2.11	1.40
+326	Almere City	ADO Den Haag	1.70	3.15	3.04	1.91	1.43	1.91	1.43
+327	Graafschap	Eindhoven	1.70	3.15	3.04	1.91	1.43	1.91	1.43
+328	Jong Ajax	Jong Utrecht	1.70	3.15	3.04	1.91	1.43	1.91	1.43
+329	Oss	Dordrecht	1.70	3.15	3.04	1.91	1.43	1.91	1.43
+330	Roda	Heracles	1.70	3.15	3.04	1.91	1.43	1.91	1.43
+331	Telstar	Den Bosch	1.70	3.15	3.04	1.91	1.43	1.91	1.43
+332	VVV Venlo	Maastricht	1.70	3.15	3.04	1.91	1.43	1.91	1.43
+333	AZ Picerno	V. Francavill	1.95	2.60	2.98	1.40	1.95	1.40	1.95
+334	Latina Calcio	Audace Cerign	1.95	2.60	2.98	1.40	1.95	1.40	1.95
+335	Potenza	FC Giugliano 	1.95	2.60	2.98	1.40	1.95	1.40	1.95
+336	Taranto FC	Monterosi Tus	1.95	2.60	2.98	1.40	1.95	1.40	1.95
+337	Viterbese Cas	Turris Calcio	1.95	2.60	2.98	1.40	1.95	1.40	1.95
+338	Arzignano Val	Juventus U23	2.08	2.57	2.73	1.37	2.02	1.37	2.02
+339	Calcio Lecco	Padova	2.08	2.57	2.73	1.37	2.02	1.37	2.02
+340	Feralpisalo	Novara	2.08	2.57	2.73	1.37	2.02	1.37	2.02
+341	Mantova 1911	Pro Vercelli	2.08	2.57	2.73	1.37	2.02	1.37	2.02
+342	Pergolettese	SSD Pro Sesto	2.08	2.57	2.73	1.37	2.02	1.37	2.02
+343	Piacenza	Pro Patria	2.08	2.57	2.73	1.37	2.02	1.37	2.02
+344	Pordenone	Vicenza	2.08	2.57	2.73	1.37	2.02	1.37	2.02
+345	Virt. Verona	Renate	2.08	2.57	2.73	1.37	2.02	1.37	2.02
+346	Ascoli	Genoa	3.07	2.82	1.91	1.42	2.04	1.42	2.04
+347	Benevento	Cittadella	3.07	2.82	1.91	1.42	2.04	1.42	2.04
+348	Como	Reggina	3.07	2.82	1.91	1.42	2.04	1.42	2.04
+349	SPAL	Palermo	3.07	2.82	1.91	1.42	2.04	1.42	2.04
+350	Sudtirol	Ternana	3.07	2.82	1.91	1.42	2.04	1.42	2.04
+351	Venezia	Cosenza C.	3.07	2.82	1.91	1.42	2.04	1.42	2.04
+352	Maribor	ND Gorica	1.11	4.65	8.39	1.95	1.40	1.95	1.40
+353	Kozarmisleny	Soroksar SC	2.39	3.03	2.05	1.86	1.45	1.86	1.45
+354	Deportivo Ala	Arenas Club D	2.05	2.66	2.68	1.36	2.03	1.36	2.03
+355	Kerala Blaste	Bengaluru	1.69	3.01	3.22	1.69	1.58	1.69	1.58
+356	Caernarfon	The New Saint	9.60	5.74	1.05	2.56	1.19	2.56	1.19
+357	Newtown	Haverfordwest	9.60	5.74	1.05	2.56	1.19	2.56	1.19
+358	Penybont	Broughton	9.60	5.74	1.05	2.56	1.19	2.56	1.19
+359	Pontypridd To	Bala Town	9.60	5.74	1.05	2.56	1.19	2.56	1.19
+360	Diosgyör	BFC Siofok	1.25	3.84	5.54	1.87	1.44	1.87	1.44
+361	Watford	Hull City	1.49	3.21	4.54	1.63	1.74	1.63	1.74
+362	Oldham	Torquay	1.70	3.06	3.11	1.63	1.63	1.63	1.63
+363	Smouha	Al Mokawloon	2.35	2.26	2.71	1.26	2.29	1.26	2.29
+364	Talaea Gaish	Al Masry	2.35	2.26	2.71	1.26	2.29	1.26	2.29
+365	Casa Pia	CD Trofense	1.34	3.47	4.93	1.68	1.59	1.68	1.59
+366	CA Cirbonero	Utebo FC	2.64	2.70	2.05	1.44	1.89	1.44	1.89
+367	CD Arnedo	Izarra	2.64	2.70	2.05	1.44	1.89	1.44	1.89
+368	Ponferradina	Lugo	2.00	2.86	2.84	1.50	1.90	1.50	1.90
+369	S. Gijon	Cartagena	2.00	2.86	2.84	1.50	1.90	1.50	1.90
+370	Botosani	Cluj	4.58	3.11	1.44	1.46	1.84	1.46	1.84
+371	Compostela	Real Valladol	1.75	2.88	3.15	1.42	1.93	1.42	1.93
+372	Altınordu	Bodrumspor	2.83	3.16	1.88	1.87	1.52	1.87	1.52
+373	Antequera CF	CD San Roque	1.62	2.91	3.65	1.45	1.86	1.45	1.86
+374	Atletico Sanl	CD Utrera	1.62	2.91	3.65	1.45	1.86	1.45	1.86
+375	El Ejid 2012	Yeclano Depor	1.62	2.91	3.65	1.45	1.86	1.45	1.86
+376	Real Murcia	Sabadell	1.85	2.73	3.01	1.38	2.02	1.38	2.02
+377	Real Union De	CA Osasuna B	1.85	2.73	3.01	1.38	2.02	1.38	2.02
+378	Ourense CF	Real Aviles C	2.57	2.86	2.01	1.53	1.75	1.53	1.75
+379	Alzira	Atletico Sagu	1.98	2.59	2.88	1.31	2.18	1.31	2.18
+380	Alcorcon	Cordoba	1.93	2.74	2.83	1.40	1.95	1.40	1.95
+381	Pontevedra	Rayo Majadah	1.93	2.74	2.83	1.40	1.95	1.40	1.95
+382	Beerschot	Sl16 Football	1.19	4.34	5.84	2.26	1.28	2.26	1.28
+383	SD Gernika Cl	SD Beasain	1.78	2.76	3.18	1.44	1.87	1.44	1.87
+384	NK Radomlje	Celje	3.33	3.20	1.60	1.74	1.54	1.74	1.54
+385	Avellino	Fidelis Andri	1.94	2.60	2.98	1.33	2.10	1.33	2.10
+386	Crotone	Gelbison	1.94	2.60	2.98	1.33	2.10	1.33	2.10
+387	Juve Stabia	Acr Messina	1.94	2.60	2.98	1.33	2.10	1.33	2.10
+388	Monopoli	Pescara C.	1.94	2.60	2.98	1.33	2.10	1.33	2.10
+389	USD Recanates	V. Entella	4.32	2.94	1.51	1.35	2.07	1.35	2.07
+390	Zamora CF	RS Gimnastica	1.49	2.96	4.44	1.37	2.02	1.37	2.02
+391	Bari	Modena	1.68	2.95	3.72	1.56	1.82	1.56	1.82
+392	Szeged-Grosic	MTK Budapeşte	2.89	3.10	1.76	1.76	1.51	1.76	1.51
+393	Hercules CF	Deportivo Ara	1.45	3.16	4.32	1.56	1.71	1.56	1.71
+394	Club Marino D	CD Laredo	1.81	2.74	3.13	1.33	2.10	1.33	2.10
+395	Eibar	R. Oviedo	1.61	2.93	4.18	1.29	2.41	1.29	2.41
+396	Granada	Burgos	1.61	2.93	4.18	1.29	2.41	1.29	2.41
+397	Deportivo	Racing Club D	1.86	2.66	3.09	1.35	2.07	1.35	2.07
+398	San Sebastian	Fuenlabrada	1.86	2.66	3.09	1.35	2.07	1.35	2.07
+399	CF Intercity	CD Alcoyano	2.14	2.67	2.53	1.37	2.03	1.37	2.03
+400	Gimnastic	Barcelona B	2.14	2.67	2.53	1.37	2.03	1.37	2.03
+401	Chindia	FCSB	2.79	2.84	1.89	1.51	1.76	1.51	1.76
+402	Braga	P. Ferreira	1.05	5.48	9.90	2.31	1.26	2.31	1.26
+403	Frosinone	Pisa	1.68	3.00	3.64	1.56	1.82	1.56	1.82
+404	AC Trento	Albinoleffe	2.35	2.58	2.36	1.37	2.02	1.37	2.02
+405	Lommel	Kmsk Deinze	1.83	3.11	2.71	1.93	1.42	1.93	1.42
+406	Las Palmas	Albacete	1.60	2.92	4.21	1.42	2.05	1.42	2.05
+407	R. Santander	Mirandes	1.60	2.92	4.21	1.42	2.05	1.42	2.05
+408	Real Kashmir	Punjab FC	1.83	2.89	2.90	1.57	1.70	1.57	1.70
+409	Gokulam Keral	Rajasthan Uni	2.10	2.77	2.50	1.45	1.86	1.45	1.86
+410	Ismaily	Future FC	3.08	2.37	2.04	1.32	2.13	1.32	2.13
+411	U Craiova	A. Pitesti	1.84	2.75	3.03	1.37	2.02	1.37	2.02
+412	Mura	Domzale	1.69	3.17	3.04	1.76	1.51	1.76	1.51
+413	Pendikspor	Sakaryaspor	1.67	3.15	3.46	1.76	1.60	1.76	1.60
+414	Al Ahly	Al Ittihad	1.24	3.79	6.05	1.77	1.51	1.77	1.51
+415	Jong Alkmaar 	Alaves (D)	1.90	3.60	2.60	1.76	1.61	1.76	1.61
+416	Jong PSV (D)	Sunderland (D	1.90	3.60	2.60	1.76	1.61	1.76	1.61
+417	Jong Alkmaar	Jong PSV	1.92	3.01	2.60	1.92	1.42	1.92	1.42
+418	CS Mioveni	Uni. Craiova	4.13	3.09	1.49	1.41	1.93	1.41	1.93
+419	Parma (D)	Levante (D)	2.20	2.85	2.60	1.22	2.71	1.22	2.71
+420	West Brom (D)	Brescia (D)	2.20	2.85	2.60	1.22	2.71	1.22	2.71
+421	Brescia	Parma	2.55	2.75	2.24	1.49	1.93	1.49	1.93
+422	Foggia	Catanzaro	3.58	2.73	1.69	1.47	1.83	1.47	1.83
+423	Chelmsford C	Slough Town	1.42	3.30	4.34	1.79	1.50	1.79	1.50
+424	Sunderland	West Brom	2.57	2.88	2.14	1.54	1.85	1.54	1.85
+425	Alaves	Levante	2.14	2.66	2.78	1.36	2.19	1.36	2.19
+426	Zwolle	Helmond Sport	1.14	4.70	6.63	2.44	1.23	2.44	1.23
+427	FC Martigues	Concarneau	2.71	2.74	1.99	1.58	1.69	1.58	1.69
+428	Boavista	V. Guimaraes	2.46	2.77	2.14	1.48	1.82	1.48	1.82
