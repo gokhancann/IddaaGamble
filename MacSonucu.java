@@ -24,12 +24,12 @@ public class MacSonucu extends Bahis {
         double prob_of_odd1 = 1 / odd1;
         double prob_of_odd0 = 1 / odd0;
         double prob_of_odd2 = 1 / odd2;
-
+        // 1 0 2 gelme ihtimallerini oranlara göre hesaplar//
         prob_of_odd1 = prob_of_odd1 / (prob_of_odd1 + prob_of_odd0 + prob_of_odd2);
         prob_of_odd0 = prob_of_odd0 / (prob_of_odd1 + prob_of_odd0 + prob_of_odd2);
         prob_of_odd2 = prob_of_odd2 / (prob_of_odd1 + prob_of_odd0 + prob_of_odd2);
 
-
+        //random bir sayı alır//
         double rn = Math.random();
 
 
@@ -48,8 +48,5 @@ public class MacSonucu extends Bahis {
             // bahis kazandi
             this.kazandi = true;
         }
-
-
-
     }
 }

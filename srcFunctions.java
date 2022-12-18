@@ -61,16 +61,14 @@ public class srcFunctions {
             "=============================================================================="
     };
 
-
-    // Display Menu
+    //Oluşturulmuş Static Menülerin displayi içindir//
     static void displayMenu(String[] str) {
         for (String i : str) {
             System.out.println(i);
         }
     }
 
-
-    // Display Coupon
+    //Oluşturulan kuponu gösterir//
     static void displayCoupon(ArrayList<Bahis> kup) {
 
         if (kup.size() <= 0) {
@@ -101,8 +99,8 @@ public class srcFunctions {
         }
     }
 
+    //Oynanmış kuponun sonuclarını gösterir//
     static void displayFinalCoupon(ArrayList<Bahis> kup, Kasa kasa) {
-
         int KuponSonucu = 1;
 
         String bahisTuru = "";
@@ -141,12 +139,13 @@ public class srcFunctions {
         }
     }
 
-    // Play Coupon
+    //Oluşturulan Kuponu oynar, sonuçlandırır//
     static void playCoupon(ArrayList<Bahis> kupon, Kasa kasa, HashMap fix) throws InterruptedException {
 
-        if (kupon.size() <= 0) {
+        if (kupon.size() == 0) {
             System.out.println("Kuponunuz boştur.");
-        } else {
+        }
+        else {
 
             kasa.setBahisParasi(bahisTutariHandle());
 
@@ -157,7 +156,7 @@ public class srcFunctions {
 
             double bahisTutari = kasa.getBahisParasi();
 
-            if (kasa.getPara() >= bahisTutari & kasa.getPara() > 0) {
+            if (kasa.getPara() >= bahisTutari && kasa.getPara() > 0) {
 
                 // toplam orani hesapla
                 double toplamOran = 1;
@@ -175,12 +174,19 @@ public class srcFunctions {
                     kazanc = (toplamOran - 1) * bahisTutari;
                     // kasa yeni tutar eklendi
                     kasa.kazanciEkle(kazanc);
-                } else {
+                }
+                else {
                     // kasadan bahis tutari cikarildi
                     kasa.bahisTutariniDus(bahisTutari);
                 }
-            } else {
-
+                loading("Kupon oynanıyor");
+                displayFinalCoupon(kupon, kasa);
+                //kupon oynandıktan sonra kuponu boşaltıyor.//
+                for (int i = 0; i < kupon.size(); i++) {
+                    kupon.remove(0);
+                }
+            }
+            else {
                 System.out.println("Yeterli bakiyeniz bulunmamaktadır.");
                 System.out.println("Ana menüye dönüp kasa işlemleri üzerinden para yükleyiniz.");
 
@@ -190,6 +196,48 @@ public class srcFunctions {
 
     }
 
+    //Kasaya girmeden sifre istemek için kullanılır//
+    static boolean KasaSifreCheck() throws InterruptedException {
+        boolean SifreCheck = true;
+        boolean check2 = true;
+        Scanner inputObj = new Scanner(System.in);  // Create a Scanner object
+        String password = "";
+        String secim2 = "";
+        String sifre = "BBS515";
+        while (SifreCheck){
+            System.out.println("Lütfen sifreyi giriniz. (Büyük küçük harf önemlidir): ");
+            password = inputObj.nextLine();
+            loading("Sifre kontrol ediliyor");
+            if (password.equals(sifre)){
+                System.out.println("Sifre doğrudur.");
+                return SifreCheck;
+            }
+            else{
+                System.out.println("Hatalı sifre girdiniz.");
+                while (check2){
+                System.out.println("Lütfen Seçim Yapınız :");
+                System.out.println("1- Ana Menüye Dön");
+                System.out.println("2- Tekrar sifre girisi yap :");
+                secim2 = inputObj.nextLine();
+                if (secim2.equals("1")){
+                    check2 = false;
+                    SifreCheck = false;
+                    return SifreCheck;
+                }
+                else if (secim2.equals("2")){
+                    check2 = false;
+                    SifreCheck = true;
+                }
+                else{
+                    System.out.println("Hatalı secim yaptınız.");
+                }
+                }
+            }
+        }
+        return SifreCheck;
+    }
+
+    //Görsel amaclı bazı islemlerden sonra konsola loading bar koymak için//
     static void loading(String s) throws InterruptedException {
         System.out.print(s);
         for (int i = 0; i < 15; i++) {
@@ -204,6 +252,7 @@ public class srcFunctions {
     /////// EXCEPTIONS & HANDLES ////////
     /////////////////////////////////////
 
+    //Bahis Tutari için Hatalı Girişleri Düzenler//
     static double bahisTutariHandle() {
         Scanner inputObj = new Scanner(System.in);  // Create a Scanner object
         String inputpara = "";
@@ -228,6 +277,7 @@ public class srcFunctions {
         return inputParaDouble;
     }
 
+    //Yes No soruları için Hatalı Girişleri düzenler//
     static boolean yesNoHandle(String r) {
         boolean retVal = false;
 
@@ -243,6 +293,7 @@ public class srcFunctions {
         return retVal;
     }
 
+    //Bahis Kodu girişleri için hatalı girişleri düzenler//
     static void bahisKoduHandle(HashMap<String, ArrayList<String>> fix) {
         Scanner inputObj = new Scanner(System.in);  // Create a Scanner object
         String bKodu = "";
@@ -275,9 +326,9 @@ public class srcFunctions {
         }
     }
 
-    // Bahis Menu Handle
 
 
+    //Bahis islemlerinin seçeneklerini yönetir//
     static void bahisMenuHandle(ArrayList<Bahis> kupon, HashMap<String, ArrayList<String>> fixture, Kasa kasa) throws InterruptedException {
         Scanner inputObj = new Scanner(System.in);  // Create a Scanner object
         String input = "";
@@ -303,11 +354,7 @@ public class srcFunctions {
                 kuponuTemizle(kupon);
             } else if (input.equals("5")) {
                 // kuponu oyna
-                playCoupon(kupon, kasa, fixture);
-                loading("Kupon oynanıyor");
-                displayFinalCoupon(kupon, kasa);
-                //kupon oynandıktan sonra kuponu boşaltıyor.//
-                kupon = new ArrayList<Bahis>();
+                    playCoupon(kupon, kasa, fixture);
             } else if (input.equals("6")) {
                 // menuden cikis yap
                 bahisMenuCheck = false;
@@ -315,6 +362,7 @@ public class srcFunctions {
         }
     }
 
+    //Kupona eklenmek istenen bahsin kupona ekli olup olmadığı kontrolü//
     static boolean bahisAvailable(ArrayList<Bahis> kupon, String bahisKodu, String karsilasmaTuru) {
         boolean retVal = true;
         String x = "";
@@ -340,6 +388,7 @@ public class srcFunctions {
 
     }
 
+    //Kupondan Bahis Çıkarır.//
     static void bahisCikar(ArrayList<Bahis> kupon) {
         Scanner inputObj = new Scanner(System.in);  // Create a Scanner object
         String input = "";
@@ -347,7 +396,6 @@ public class srcFunctions {
         if (kupon.size() <= 0) {
             System.out.println("Kuponunuz boştur.");
         } else {
-            System.out.println("KUPONUNUZ ");
             System.out.println("-------------------------");
             displayCoupon(kupon);
 
@@ -361,10 +409,9 @@ public class srcFunctions {
                 while (counterCheck) {
                     System.out.print("Çıkarmak istediğiniz bahsin satır numarasını giriniz: ");
                     input = inputObj.nextLine();
-
+                    inputInt = Integer.parseInt(input);
                     try {
                         if (inputInt <= kupon.size()) {
-                            inputInt = Integer.parseInt(input);
                             kupon.remove(inputInt - 1);
                             counterCheck = false;
                             logiccikar = false;
@@ -373,7 +420,7 @@ public class srcFunctions {
                             System.out.println("Lütfen geçerli bir satır numarası giriniz.");
                         }
                     } catch (Exception e) {
-                        System.out.println("Lütfen geçerli bir satır numarası giriniz.");
+                        System.out.println("Hatalı Giriş Yaptınız. Lütfen geçerli bir satır numarası giriniz. ");
                     }
                 }
             }
@@ -382,6 +429,7 @@ public class srcFunctions {
 
     }
 
+    //Kupondaki Tüm bahisleri siler//
     static void kuponuTemizle(ArrayList<Bahis> kupon) {
 
         if (kupon.size() <= 0) {
@@ -398,9 +446,8 @@ public class srcFunctions {
 
                 // yes no handle eklenecek
                 if (input.equalsIgnoreCase("y")) {
-                    int arrSize = kupon.size();
 
-                    for (int i = 0; i < arrSize; i++) {
+                    for (int i = 0; i < kupon.size(); i++) {
                         kupon.remove(0);
                     }
                     System.out.println("Kuponunuz temizlenmiştir.");
@@ -415,6 +462,7 @@ public class srcFunctions {
     }
 
 
+    //Kupona Bahis ekler//
     static void bahisEkle(ArrayList<Bahis> kupon, HashMap<String, ArrayList<String>> fixture) {
         Scanner inputObj = new Scanner(System.in);  // Create a Scanner object
         String input = "";
@@ -503,9 +551,9 @@ public class srcFunctions {
 
     }
 
-
     // Bahis Turleri Ile Ilgili Durumlar
-    // 1. MS Bahsi
+    // MS Bahsi için Girişleri Yönetir//
+
     static void msHandle(String bahisKodu, ArrayList<String> bahis, ArrayList<Bahis> kupon) {
         Scanner inputObj = new Scanner(System.in);  // Create a Scanner object
 
@@ -536,7 +584,7 @@ public class srcFunctions {
         kupon.add(new MacSonucu(bahisKodu, inputMS, oran));
     }
 
-    // 2. AU Bahsi
+    // AU Bahsi için Girişleri Yönetir//
     static void auHandle(String bahisKodu, ArrayList<String> bahis, ArrayList<Bahis> kupon) {
         Scanner inputObj = new Scanner(System.in);  // Create a Scanner object
 
@@ -563,7 +611,7 @@ public class srcFunctions {
         kupon.add(new AltUst(bahisKodu, inputAU.toUpperCase(), oran));
     }
 
-    // 3. KG Bahsi
+    // KG Bahsi için Girişleri Yönetir//
     static void kgHandle(String bahisKodu, ArrayList<String> bahis, ArrayList<Bahis> kupon) {
         Scanner inputObj = new Scanner(System.in);  // Create a Scanner object
 
@@ -588,7 +636,7 @@ public class srcFunctions {
         kupon.add(new KgVarYok(bahisKodu, inputKG.toUpperCase(), oran));
     }
 
-
+    //Kasa islemlerini Yönetir ve girisleri düzenler//
     public static void handleKasa(Kasa kasa) throws InterruptedException {
         Scanner inputObj = new Scanner(System.in);  // Create a Scanner object
         boolean kasaCheck = true;
@@ -601,7 +649,8 @@ public class srcFunctions {
 
             if (input.equals("1")) {
                 kasa.DisplayKasa();
-            } else if (input.equals("2")) {
+            }
+            else if (input.equals("2")) {
 
                 boolean paraGirisi = true;
 
@@ -625,7 +674,8 @@ public class srcFunctions {
                         System.out.println("Lütfen pozitif bir sayı giriniz.");
                     }
                 }
-            } else if (input.equals("3")) {
+            }
+            else if (input.equals("3")) {
 
                 if (kasa.getPara() > 0) {
                     boolean paraGirisi = true;
@@ -658,15 +708,13 @@ public class srcFunctions {
                 } else {
                     System.out.println("Para çekmek için kasanızdaki tutar 0'dan büyük olmalıdır.");
                 }
-            } else if (input.equals("4")) {
+            }
+            else if (input.equals("4")) {
                 kasaCheck = false;
-            } else {
+            }
+            else {
                 System.out.println("Yanlış bir seçim yaptınız. Tekrar deneyiniz.");
             }
         }
-
-
     }
-
-
 }

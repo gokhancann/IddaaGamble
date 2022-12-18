@@ -17,10 +17,10 @@ public class AltUst extends Bahis {
 
         double prob_of_oddAlt = 1 / oddAlt;
         double prob_of_oddUst = 1 / oddUst;
-
+        // alt ve üst gelme ihtimallerini oranlara göre hesaplar//
         prob_of_oddAlt = prob_of_oddAlt / (prob_of_oddAlt + prob_of_oddUst);
         prob_of_oddUst = prob_of_oddUst / (prob_of_oddAlt + prob_of_oddUst);
-
+        //random bir sayı alır//
         double rn = Math.random();
 
         if (rn >= 0 & rn <= prob_of_oddAlt) {
@@ -38,7 +38,5 @@ public class AltUst extends Bahis {
             // bahis kazandi
             this.kazandi = true;
         }
-
-
     }
 }

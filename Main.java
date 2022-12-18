@@ -47,7 +47,7 @@ public class Main {
         while (menuLogic) {
 
             srcFunctions.displayMenu(srcFunctions.mainMenu);
-            System.out.print("Seçinimiz: ");
+            System.out.print("Seçiminiz: ");
 
             input = inputObj.nextLine();  // Read user input
 
@@ -59,9 +59,11 @@ public class Main {
                 srcFunctions.bahisMenuHandle(kupon, fixture, Kasa);
             }
             else if (input.equals("3")) {
-                System.out.println("Kasaya Hoşgeldiniz");
 
-                srcFunctions.handleKasa(Kasa);
+                if (srcFunctions.KasaSifreCheck()) {
+                    System.out.println("Kasaya Hoşgeldiniz");
+                    srcFunctions.handleKasa(Kasa);
+                }
 
             }
             else if (input.equals("4")) {

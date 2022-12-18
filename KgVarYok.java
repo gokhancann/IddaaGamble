@@ -18,11 +18,11 @@ public class KgVarYok extends Bahis {
 
         double prob_of_oddVar = 1 / oddVar;
         double prob_of_oddYok = 1 / oddYok;
-
+        // kg var yok gelme ihtimallerini oranlara göre hesaplar//
         prob_of_oddVar = prob_of_oddVar / (prob_of_oddVar + prob_of_oddYok );
         prob_of_oddYok = prob_of_oddYok / (prob_of_oddVar + prob_of_oddYok);
 
-
+        //random bir sayı alır//
         double rn = Math.random();
 
 
@@ -38,9 +38,5 @@ public class KgVarYok extends Bahis {
             // bahis kazandi
             this.kazandi = true;
         }
-
-        //System.out.println("kazanan: " + this.kazanan  + " /// secim: " + this.secim);
-
-
     }
 }

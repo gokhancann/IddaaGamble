@@ -4,7 +4,6 @@ import java.util.*;
 public abstract class Bahis {
 
     public String oyunKodu;
-
     public double oran;
     public String secim;
     public boolean kazandi;

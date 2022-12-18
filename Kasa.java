@@ -5,8 +5,8 @@ public class Kasa implements Islemler {
 
 
     public Kasa() {
-        para = 0;
-        bahisParasi = 0;
+        para = 0; //Toplam para//
+        bahisParasi = 0; //Bahiste kullanılacak para//
     }
 
     public double getPara() {
@@ -38,7 +38,7 @@ public class Kasa implements Islemler {
     }
 
     @Override
-    public void bahisTutariniDus(double miktar){
+    public void bahisTutariniDus(double miktar){  //Kupon kaybedildi ise Kasayı Güncellemek için//
         if (this.getPara() >= miktar){
             this.para -= miktar;
         }else{
@@ -51,5 +51,5 @@ public class Kasa implements Islemler {
     @Override
     public void kazanciEkle(double miktar){
         this.para += miktar;
-    }
+    } //Kupon kazanıldı ise kasayı günceller//
 }
